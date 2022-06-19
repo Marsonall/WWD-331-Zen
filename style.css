@@ -7,7 +7,7 @@ h4 {
 
 h1 {
   background: #ea2e49;
-  color: #fff;
+  color: rgb(248, 241, 241);
   display: inline-block;
   font-weight: normal;
   margin-bottom: 1em;
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  color: rgb(248, 241, 241);
   font-weight: 900;
   /* Heavy */
   font-size: 6em;
@@ -51,7 +51,7 @@ p {
 
 a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: #333;
+  color: rgb(253, 253, 253);
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
 }
@@ -64,14 +64,14 @@ a:hover {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(248, 241, 241);
 }
 
 .summary {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(248, 241, 241);
   padding: 15% 0;
 }
 .summary p:last-child {
@@ -80,12 +80,12 @@ a:hover {
   padding-top: 1.5em;
 }
 .summary a {
-  color: #fff;
+  color: rgb(248, 241, 241);
 }
 
 .preamble {
-  background: rgba(255, 255, 255, 0.9);
-  color: #333;
+  background: url(board2.svg);
+  color: rgb(253, 253, 253);
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
 }
@@ -99,15 +99,15 @@ a:hover {
 }
 
 html {
-  background-color: #daede2;
+  background-color: black;
   padding: 5%;
 }
 
 body {
   font-family: verdana, arial, sans-serif;
   font-size: 85%;
-  color: #333;
-  background-color: #77c4d3;
+  color: rgb(253, 253, 253);
+  background-image: url(robot.svg);
   margin: 0;
   padding: 1em;
 }

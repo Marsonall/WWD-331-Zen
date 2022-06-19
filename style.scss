@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 html {
-  background-color: $background-color;
+  background-color: black;
   padding: 5%;
 }
 
@@ -15,7 +15,7 @@ body {
   font-family: $fonts-body;
   font-size: 85%;
   color: $text-dark;
-  background-color: $primary;
+  background-image: $background-image;
   margin: 0;
   padding: 1em;
 }
