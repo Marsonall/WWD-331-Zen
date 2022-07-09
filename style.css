@@ -1,13 +1,13 @@
 h2,
 h3,
 h4 {
-  font-family: "arial narrow", Arial, Verdana, sans-serif;
+  font-family: "Impact";
   margin: 0;
 }
 
 h1 {
   background: #ea2e49;
-  color: rgb(248, 241, 241);
+  color: rgb(158, 207, 22);
   display: inline-block;
   font-weight: normal;
   margin-bottom: 1em;
@@ -51,7 +51,7 @@ p {
 
 a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: rgb(253, 253, 253);
+  color: rgb(238, 255, 1);
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
 }
@@ -67,6 +67,12 @@ a:hover {
   color: rgb(248, 241, 241);
 }
 
+.main-supporting{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
 .summary {
   font-weight: 300;
   letter-spacing: 2px;
@@ -80,7 +86,7 @@ a:hover {
   padding-top: 1.5em;
 }
 .summary a {
-  color: rgb(248, 241, 241);
+  color: rgb(205, 250, 7);
 }
 
 .preamble {
@@ -89,6 +95,35 @@ a:hover {
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
 }
+
+.explanation{
+  width: 50rem;
+  grid-column: 1/1;
+  background: url(board2.svg);
+  padding: 5% 5% 5% 5%;
+}
+
+.participation{
+  width: 50rem;
+  grid-column: 2/2;
+  background: url(board2.svg);
+  padding: 5% 5% 5% 5%;
+}
+
+.benefits{
+  width: 50rem;
+  grid-column: 1/2;
+  background: url(board2.svg);
+  padding: 10% 5% 1% 20%;
+}
+
+.requirements{
+  width: 50rem;
+  grid-column: 2/2;
+  background: url(board2.svg);
+  padding: 7% 10% 10% 20%;
+}
+
 
 .intro {
   padding: 5%;
@@ -112,4 +147,15 @@ body {
   padding: 1em;
 }
 
+footer{
+  text-align: center;
+  font-size: 50px;
+}
+
+.sidebar{
+  font-display: inline;
+  text-align: center inline;
+  background: url(board2.svg);
+  padding: 5% 5% 5% 30%;
+}
 /*# sourceMappingURL=style.css.map */
